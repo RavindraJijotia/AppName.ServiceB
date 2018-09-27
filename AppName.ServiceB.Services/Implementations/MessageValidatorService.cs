@@ -7,7 +7,7 @@ namespace AppName.ServiceB.Services.Implementations
     {
         public bool IsValidMessage(string message)
         {
-            return !string.IsNullOrWhiteSpace(message) && Regex.IsMatch(message, @"^[a-zA-Z]+$") &&
+            return !string.IsNullOrWhiteSpace(message) &&
                    (message.Split(", ").Length == 2);
         }
     }
