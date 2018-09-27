@@ -26,9 +26,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2BFC1FB2-450D-4461-BCD2-D7CB49642FA8}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		.travis.yml = .travis.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppName.ServiceB.UnitTests", "AppName.ServiceB.UnitTests\AppName.ServiceB.UnitTests.csproj", "{5B337422-2EEF-4320-8EA4-62E31D348020}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppName.ServiceB.UnitTests", "AppName.ServiceB.UnitTests\AppName.ServiceB.UnitTests.csproj", "{5B337422-2EEF-4320-8EA4-62E31D348020}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
