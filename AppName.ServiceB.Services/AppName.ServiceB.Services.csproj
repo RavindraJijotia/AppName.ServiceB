@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.0.0-pre2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppName.ServiceB.Messages\AppName.ServiceB.Messages.csproj" />
+    <ProjectReference Include="..\AppName.ServiceB.Models\AppName.ServiceB.Models.csproj" />
+  </ItemGroup>
+
+</Project>
