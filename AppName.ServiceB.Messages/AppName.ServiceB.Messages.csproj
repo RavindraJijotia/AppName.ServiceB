@@ -4,10 +4,4 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Reference Include="MassTransit">
-      <HintPath>..\..\..\..\.nuget\packages\masstransit\5.1.5.1635-develop\lib\netstandard2.0\MassTransit.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>
