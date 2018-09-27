@@ -32,7 +32,7 @@ namespace AppName.ServiceB.Host
             rabbitMqService.StartMessageListener();
             
 
-            Console.WriteLine("Press enter or any key then enter to Exit");
+            Console.WriteLine("Press enter or press any key then enter to Exit");
             Console.WriteLine("Listening for messages...");
 
             var userInput = Console.ReadLine();
