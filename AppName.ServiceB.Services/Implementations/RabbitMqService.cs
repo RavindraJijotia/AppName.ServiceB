@@ -43,7 +43,7 @@ namespace AppName.ServiceB.Services.Implementations
                 var strMessage = Encoding.UTF8.GetString(body);
                 NameMessage nameMessage = JsonConvert.DeserializeObject<NameMessage>(strMessage);
 
-                if (nameMessage != null && !_messageValidatorService.IsValidMessage(nameMessage.Message))
+                if (nameMessage != null && _messageValidatorService.IsValidMessage(nameMessage.Message))
                     Console.WriteLine($"Hello {nameMessage.Message.Split(", ")[1]}, I am your father!");
                 else
                     Console.WriteLine("Invalid Message.");
